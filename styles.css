@@ -21,7 +21,7 @@
     height: 7rem; 
     border-radius: 50%;
     position: absolute;
-    background-color: rebeccapurple; 
+    /* background-color: rebeccapurple;  */
  } 
  
  #ride-cymbal{
@@ -30,7 +30,7 @@
     height: 8.5rem; 
     border-radius: 50%;
     position: absolute;
-    background-color: orange; 
+    /* background-color: orange;  */
  }
  
  #crash-cymbal{ 
@@ -40,7 +40,7 @@
     height: 9.5rem; 
     border-radius: 50%;
     position: absolute;
-    background-color: yellow; 
+    /* background-color: yellow;  */
  } 
 
 #floor-tom{
@@ -50,7 +50,7 @@
     height: 7.5rem; 
     border-radius: 50%;
     position: absolute;
-    background-color: red;  
+    /* background-color: red;   */
 }
  
 #high-tom{
@@ -60,15 +60,15 @@
     height: 6rem; 
     border-radius: 50%;
     position: absolute;
-    background-color: blue;  
+    /* background-color: blue;   */
 }
 
 #bass{
-    top: 8rem;
+    top: 10rem;
     left: 9.5rem;
     width: 6rem;
-    height: 9rem; 
+    height: 13rem; 
     position: absolute;
-    background-color: green;  
+    /* background-color: green;   */
 
 }
