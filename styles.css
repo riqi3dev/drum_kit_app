@@ -1,1 +1,74 @@
+ body, html{
+    margin: 0;
+    padding: 0;
+ } 
  
+ button{ 
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+ }
+ 
+
+ #snare{ 
+    left: 4rem;
+    top: 11rem;
+    width: 7rem;
+    height: 7rem; 
+    border-radius: 50%;
+    position: absolute;
+    background-color: rebeccapurple; 
+ } 
+ 
+ #ride-cymbal{
+    top: 1rem;
+    width: 8.5rem;
+    height: 8.5rem; 
+    border-radius: 50%;
+    position: absolute;
+    background-color: orange; 
+ }
+ 
+ #crash-cymbal{ 
+    left: 13.5rem;
+    top: 2.5rem;
+    width: 9.5rem;
+    height: 9.5rem; 
+    border-radius: 50%;
+    position: absolute;
+    background-color: yellow; 
+ } 
+
+#floor-tom{
+    left: 14.5rem;
+    top: 10.5rem;
+    width: 7.5rem;
+    height: 7.5rem; 
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;  
+}
+ 
+#high-tom{
+    left: 6.5rem;
+    top: 4.5rem;
+    width: 6rem;
+    height: 6rem; 
+    border-radius: 50%;
+    position: absolute;
+    background-color: blue;  
+}
+
+#bass{
+    top: 8rem;
+    left: 9.5rem;
+    width: 6rem;
+    height: 9rem; 
+    position: absolute;
+    background-color: green;  
+
+}
