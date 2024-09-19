@@ -5,42 +5,25 @@ html {
   height: 100%;
 }
 
-body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://images.pexels.com/photos/5648356/pexels-photo-5648356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
- 
-
-.container {
-  position: relative;
-  width: 100%;
+body{
+  background-color: black;
+  position: relative; 
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  background-image: url(https://images.pexels.com/photos/5648356/pexels-photo-5648356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
-h1{
-    top: -75%;
-    position: absolute ;
-    text-align: center;
-    color: white;
-    font-family: "Metal Mania", system-ui;
-    font-weight: 400;
-    font-size: 4rem;
-    font-style: normal;
-}
-
-#platform{
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    width:125%;
-    height: 125%;
-    z-index: -1;
-    position: absolute;
-    background-color: white; 
-    border-radius: 50%;
-    filter: blur(3rem);
+h1 {
+  line-height: 0.8;
+  top: -75%;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: normal;
 }
 
 .wrapper {
@@ -50,8 +33,31 @@ h1{
   position: absolute;
 }
 
+@media screen and (max-width: 600px) {
+  .wrapper {
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 50%;
+    position: absolute;
+  }
+}
+
+#platform {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 125%;
+  height: 125%;
+  z-index: -1;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  filter: blur(3rem);
+}
+
 button {
-    -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
   background: none;
   color: inherit;
   border: none;
@@ -120,5 +126,5 @@ button {
   left: 9.5rem;
   width: 6rem;
   height: 13rem;
-  position: absolute; 
+  position: absolute;
 }
