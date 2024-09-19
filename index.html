@@ -3,18 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <title>Drum Kit App</title>
   </head>
   <body>
     <div class="container">
       <div class="wrapper">
-        <button class="kit" id="bass">Bass<br>(S)</button>
-        <button class="kit" id="floor-tom">Floor Tom<br>D</button>
-        <button class="kit" id="snare">Snare<br>(A)</button>
-        <button class="kit" id="ride-cymbal">Ride Cymbal<br>(J)</button>
-        <button class="kit" id="high-tom">High Tom<br>(W)</button>
-        <button class="kit" id="crash-cymbal">Crash Cymbal<br>(K)</button>
+        <div id="platform"></div>
+
+        <h1>THE FUNKOOLS</h1>
+        <button class="kit" id="bass">Bass<br />(S)</button>
+        <button class="kit" id="high-tom">High Tom<br />(W)</button>
+        <button class="kit" id="snare">Snare<br />(A)</button>
+        <button class="kit" id="ride-cymbal">Ride Cymbal<br />(J)</button>
+        <button class="kit" id="floor-tom">Floor Tom<br />(D)</button>
+        <button class="kit" id="crash-cymbal">Crash Cymbal<br />(K)</button>
         <img id="drum-kit" src="./assets/images/drum-kit.png" alt="drum-kit" />
       </div>
     </div>
